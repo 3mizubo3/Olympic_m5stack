@@ -28,7 +28,7 @@ byte mac[] = { //macアドレスは自分で設定してOK。ただし被って�
 };
 IPAddress ip(192, 168, 1, 247);  //ipアドレスは自分で設定してOK。ただし被ってはいけない
 unsigned int localPort = 8888;      // local port to listen on
-IPAddress remoteip(192, 168, 1, 107);  //ipアドレスは自分で設定してOK。ただし被ってはいけない
+IPAddress remoteip(192, 168, 1, 122);  //ipアドレスは自分で設定してOK。ただし被ってはいけない
 unsigned int remotePort = 54321;      // local port to listen on
 char packetBuffer[UDP_TX_PACKET_MAX_SIZE]; //buffer to hold incoming packet,
 
